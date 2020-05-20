@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Merchant_Ahkham
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+00400048]+A64
+--Overhead Name Color
+["pcsx2-r3878.exe"+00400048]+A84
+--Target Name
+["pcsx2-r3878.exe"+003FC368]+FF8
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+003FC368]+FE0
+["pcsx2-r3878.exe"+003FC368]+FE8
+["pcsx2-r3878.exe"+003FC368]+FE4
+["pcsx2-r3878.exe"+003FC368]+FA0
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+003FC368]+010
+["pcsx2-r3878.exe"+003FC368]+FB9

@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2622AE0F-267C-43B0-BB55-4B1636F365DE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Kairen.My.MyApplication</StartupObject>
+    <RootNamespace>Kairen</RootNamespace>
+    <AssemblyName>Kairen</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Kairen.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kairen.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework64\v4.0.30319\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbilityMaker.Designer.vb">
+      <DependentUpon>AbilityMaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AbilityMaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ChatTest_v1.Designer.vb">
+      <DependentUpon>ChatTest_v1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChatTest_v1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatTest_v2.Designer.vb">
+      <DependentUpon>ChatTest_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChatTest_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMMaker.Designer.vb">
+      <DependentUpon>CMMaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMMaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemMaker.Designer.vb">
+      <DependentUpon>ItemMaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemMaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BitmapDisplay.Designer.vb">
+      <DependentUpon>BitmapDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BitmapDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEKey.vb" />
+    <Compile Include="ClientHandler.vb" />
+    <Compile Include="CommandLineArgumentInterpreter.vb" />
+    <Compile Include="CommonLibrary.vb" />
+    <Compile Include="KairesTestUI.Designer.vb">
+      <DependentUpon>KairesTestUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KairesTestUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kaires_v1.vb" />
+    <Compile Include="Kaires_v2.vb" />
+    <Compile Include="Launcher_v3.Designer.vb">
+      <DependentUpon>Launcher_v3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher_v3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultithreadExample.Designer.vb">
+      <DependentUpon>MultithreadExample.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MultithreadExample.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessMaker.Designer.vb">
+      <DependentUpon>ProcessMaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessMaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAPIConnectionManager.vb" />
+    <Compile Include="FAPIConnectionManager2.vb" />
+    <Compile Include="FAPIConnectionRequestClass.vb" />
+    <Compile Include="FilePath.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoader.Designer.vb">
+      <DependentUpon>FormLoader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstallationPrompt.Designer.vb">
+      <DependentUpon>InstallationPrompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InstallationPrompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kairen2.vb" />
+    <Compile Include="Kairen_Main.Designer.vb">
+      <DependentUpon>Kairen_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kairen_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kaires.Designer.vb">
+      <DependentUpon>Kaires.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kaires.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launcher.Designer.vb">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launcher_v2.Designer.vb">
+      <DependentUpon>Launcher_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LineEntryClass.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NPCPopulator_InGame.Designer.vb">
+      <DependentUpon>NPCPopulator_InGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NPCPopulator_InGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineForm.Designer.vb">
+      <DependentUpon>OnlineForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopOut_NPCData.Designer.vb">
+      <DependentUpon>PopOut_NPCData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopOut_NPCData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopOut_YourData.Designer.vb">
+      <DependentUpon>PopOut_YourData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopOut_YourData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestDesigner.Designer.vb">
+      <DependentUpon>QuestDesigner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QuestDesigner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeMaker.Designer.vb">
+      <DependentUpon>RecipeMaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeMaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourceFileClass.vb" />
+    <Compile Include="ResourceFileClass_v2.vb" />
+    <Compile Include="ResourceFileHandler.vb" />
+    <Compile Include="RI.vb" />
+    <Compile Include="TCPManager.vb" />
+    <Compile Include="tcpReceiver_v1.vb" />
+    <Compile Include="tcpSender_v1.vb" />
+    <Compile Include="TestForm.Designer.vb">
+      <DependentUpon>TestForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextFileClass.vb" />
+    <Compile Include="TextFileClass2.vb" />
+    <Compile Include="TextFileClass3.vb" />
+    <Compile Include="UserMenu.Designer.vb">
+      <DependentUpon>UserMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMenu_v2.Designer.vb">
+      <DependentUpon>UserMenu_v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserMenu_v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AbilityMaker.resx">
+      <DependentUpon>AbilityMaker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatTest_v1.resx">
+      <DependentUpon>ChatTest_v1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatTest_v2.resx">
+      <DependentUpon>ChatTest_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMMaker.resx">
+      <DependentUpon>CMMaker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemMaker.resx">
+      <DependentUpon>ItemMaker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitmapDisplay.resx">
+      <DependentUpon>BitmapDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KairesTestUI.resx">
+      <DependentUpon>KairesTestUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher_v3.resx">
+      <DependentUpon>Launcher_v3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultithreadExample.resx">
+      <DependentUpon>MultithreadExample.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessMaker.resx">
+      <DependentUpon>ProcessMaker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoader.resx">
+      <DependentUpon>FormLoader.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstallationPrompt.resx">
+      <DependentUpon>InstallationPrompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kairen_Main.resx">
+      <DependentUpon>Kairen_Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kaires.resx">
+      <DependentUpon>Kaires.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher.resx">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher_v2.resx">
+      <DependentUpon>Launcher_v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NPCPopulator_InGame.resx">
+      <DependentUpon>NPCPopulator_InGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineForm.resx">
+      <DependentUpon>OnlineForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopOut_NPCData.resx">
+      <DependentUpon>PopOut_NPCData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopOut_YourData.resx">
+      <DependentUpon>PopOut_YourData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestDesigner.resx">
+      <DependentUpon>QuestDesigner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeMaker.resx">
+      <DependentUpon>RecipeMaker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMenu.resx">
+      <DependentUpon>UserMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMenu_v2.resx">
+      <DependentUpon>UserMenu_v2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Address2.lua" />
+    <None Include="Resources\Address3.lua" />
+    <None Include="Resources\Address4.lua" />
+    <None Include="Resources\Address5.lua" />
+    <None Include="Resources\Alert_OutputPlayerData2.lua" />
+    <None Include="Resources\Alert_OutputPlayerData_ConsoleOutput2.lua" />
+    <None Include="Resources\Alert_ProcessOutsideCommands2.lua" />
+    <None Include="Resources\Aloj_Tilsteran.txt2" />
+    <None Include="Resources\Angry_Patron.txt2" />
+    <None Include="Resources\an_undead_mammoth.txt2" />
+    <None Include="Resources\Arch_Familiar.txt2" />
+    <None Include="Resources\Area.lua" />
+    <None Include="Resources\a_badger.txt2" />
+    <None Include="Resources\Bowyer_Koll.txt2" />
+    <None Include="Resources\Box1.lua" />
+    <None Include="Resources\Box2.lua" />
+    <None Include="Resources\ChangeLog_GameContent.txt1" />
+    <None Include="Resources\ChangeLog_GameContent.txt2" />
+    <None Include="Resources\ChangeLog_GameContent2.txt2" />
+    <None Include="Resources\Changelog_GameContent3.txt2" />
+    <None Include="Resources\ChangeLog_KairenContent..txt2" />
+    <None Include="Resources\ChangeLog_KairenContent.txt2" />
+    <None Include="Resources\Changelog_KairenContent.txt4" />
+    <None Include="Resources\Changelog_KairenContent2.txt2" />
+    <None Include="Resources\Changelog_KairenContent3.txt2" />
+    <None Include="Resources\Changelog_KairenContent4.txt2" />
+    <None Include="Resources\Changelog_KairenContent5.txt2" />
+    <None Include="Resources\Coachman_Ronks.txt2" />
+    <None Include="Resources\ConsoleOutput.lua" />
+    <None Include="Resources\ConsoleOutput2.lua" />
+    <None Include="Resources\ConsoleOutput3.lua" />
+    <None Include="Resources\Convert_BooleanToString2.lua" />
+    <None Include="Resources\CreateNPCFile1.lua" />
+    <None Include="Resources\Custom1.lua" />
+    <None Include="Resources\Custom_Settings1.lua" />
+    <None Include="Resources\Dr_Killian.txt2" />
+    <None Include="Resources\DualBox.CT" />
+    <None Include="Resources\FAPI.lua" />
+    <None Include="Resources\FAPI1.lua" />
+    <None Include="Resources\FAPI2.lua" />
+    <None Include="Resources\FAPI3.lua" />
+    <None Include="Resources\FAPI4.lua" />
+    <None Include="Resources\FAPI4pre.lua" />
+    <None Include="Resources\FAPI5.lua" />
+    <None Include="Resources\File Paths.lua" />
+    <None Include="Resources\File Paths1.lua" />
+    <None Include="Resources\File Paths2.lua" />
+    <None Include="Resources\File Paths3.lua" />
+    <None Include="Resources\File Paths4.lua" />
+    <None Include="Resources\File_Exists1.lua" />
+    <None Include="Resources\Finalquestt.txt2" />
+    <None Include="Resources\Ghost.lua" />
+    <None Include="Resources\Guard_Jahn.txt2" />
+    <None Include="Resources\Guard_Perinen.txt2" />
+    <None Include="Resources\Guard_Saolen.txt2" />
+    <None Include="Resources\Guard_Serenda.txt2" />
+    <None Include="Resources\HEX_DEC.lua" />
+    <None Include="Resources\Ihtol.lua" />
+    <None Include="Resources\Kanizah.lua" />
+    <None Include="Resources\Kanizah2.lua" />
+    <None Include="Resources\Kanizah3.lua" />
+    <None Include="Resources\Kanizah4.lua" />
+    <None Include="Resources\Left2.lua" />
+    <None Include="Resources\Locations.lua" />
+    <None Include="Resources\Main Table.CT" />
+    <None Include="Resources\Main.CT" />
+    <None Include="Resources\Main.lua" />
+    <None Include="Resources\Main1.lua" />
+    <None Include="Resources\Main2.lua" />
+    <None Include="Resources\Main3.lua" />
+    <None Include="Resources\Main4.lua" />
+    <None Include="Resources\Main5.lua" />
+    <None Include="Resources\Main6.lua" />
+    <None Include="Resources\MainTable.CT" />
+    <None Include="Resources\MainTable1.ct" />
+    <None Include="Resources\MainTable2.CT" />
+    <None Include="Resources\MainTableJustWorldPopulationKey.CT" />
+    <None Include="Resources\MainTableJustWorldPopulationKey_SilentMode.CT" />
+    <None Include="Resources\Manoarmz.txt2" />
+    <None Include="Resources\Marona_Jofranka.txt2" />
+    <None Include="Resources\Merchant_Ahkham.txt2" />
+    <None Include="Resources\Merchant_Kari.txt2" />
+    <None Include="Resources\Normal-Settings2.lua" />
+    <None Include="Resources\Normal-Settings3.lua" />
+    <None Include="Resources\Normal-Settings4.lua" />
+    <None Include="Resources\Normal-Settings4pre.lua" />
+    <None Include="Resources\Normal1.lua" />
+    <None Include="Resources\Normal2.lua" />
+    <None Include="Resources\Normal3.lua" />
+    <None Include="Resources\Normal4.lua" />
+    <None Include="Resources\Normal4pre.lua" />
+    <None Include="Resources\Normal_Settings1.lua" />
+    <None Include="Resources\NPC Maker.lua" />
+    <None Include="Resources\NPC.lua" />
+    <None Include="Resources\NPC1.lua" />
+    <None Include="Resources\NPC2.lua" />
+    <None Include="Resources\NPC3.lua" />
+    <None Include="Resources\NPC4.lua" />
+    <None Include="Resources\NPC4pre.lua" />
+    <None Include="Resources\NPC5.lua" />
+    <None Include="Resources\NPC6.lua" />
+    <None Include="Resources\NPC7.lua" />
+    <None Include="Resources\NPC_Files.zip" />
+    <None Include="Resources\Nukenurplace.txt2" />
+    <None Include="Resources\OutputPlayerData2.lua" />
+    <None Include="Resources\ProcessOutsideCommands1.lua" />
+    <None Include="Resources\ProcessOutsideCommands2.lua" />
+    <None Include="Resources\PsuedoNormal1.lua" />
+    <None Include="Resources\PsuedoNormal_Settings1.lua" />
+    <None Include="Resources\Raam.txt2" />
+    <None Include="Resources\Randall_Adams.txt2" />
+    <None Include="Resources\ReadNextLine1.lua" />
+    <None Include="Resources\ReadNextLine2.lua" />
+    <None Include="Resources\Read_BitArrayToString.lua" />
+    <None Include="Resources\Read_BitArrayToString1.lua" />
+    <None Include="Resources\Read_BitArrayToString2.lua" />
+    <None Include="Resources\Read_BitArrayToString3.lua" />
+    <None Include="Resources\Read_BitArrayToString4.lua" />
+    <None Include="Resources\Read_FileToStringArray1.lua" />
+    <None Include="Resources\Read_FileToStringArray2.lua" />
+    <None Include="Resources\Right2.lua" />
+    <None Include="Resources\Royce_Tilsteran.txt2" />
+    <None Include="Resources\RunOptions1.lua" />
+    <None Include="Resources\RunOptions2.lua" />
+    <None Include="Resources\Settings_NPCMaker.lua" />
+    <None Include="Resources\sign_post.txt2" />
+    <None Include="Resources\SpawnHandler2.lua" />
+    <None Include="Resources\SpawnHandler3.lua" />
+    <None Include="Resources\SpawnHandler4.lua" />
+    <None Include="Resources\Tailor_Bariston.txt2" />
+    <None Include="Resources\Tailor_Zixar.txt2" />
+    <None Include="Resources\Version.txt2" />
+    <None Include="Resources\Version1.txt2" />
+    <None Include="Resources\World Population-Settings.lua" />
+    <None Include="Resources\World Population-Settings2.lua" />
+    <None Include="Resources\World Population-Settings3.lua" />
+    <None Include="Resources\World Population-Settings4.lua" />
+    <None Include="Resources\World Population.lua" />
+    <None Include="Resources\World Population2.lua" />
+    <None Include="Resources\World Population3.lua" />
+    <None Include="Resources\Write_StringArrayToFile1.lua" />
+    <None Include="Resources\Write_StringToBitArrayAddress1.lua" />
+    <None Include="Resources\Write_StringToBitArrayAddress2.lua" />
+    <None Include="Resources\Write_StringToBitArrayAddress3.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_post.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcsx2-r3878.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Freeport_Coach.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coachman_Ronks.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phantom9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64x64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OmegaAlert.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System.IO.Compression.FileSystem.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Changelog_GameContent3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Changelog_KairenContent.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Light Icon.png.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Light Icon.png.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow Light Icon.png.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Light Icon.png.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChangeLog_GameContent5.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Changelog_KairenContent5.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

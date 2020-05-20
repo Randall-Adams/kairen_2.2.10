@@ -1,0 +1,48 @@
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\bin\Debug\EQOA Savestate Program.exe
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\bin\Debug\EQOA Savestate Program.pdb
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\bin\Debug\EQOA Savestate Program.xml
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\Kairen.Form1.resources
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\Kairen.Kairen_Main.resources
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\Kairen.Kaires.resources
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\Kairen.Launcher.resources
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\Kairen.Resources.resources
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\Kairen.OnlineForm.resources
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\Kairen.vbproj.GenerateResource.Cache
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\EQOA Savestate Program.exe
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\EQOA Savestate Program.xml
+C:\Users\Kaynewihza\AppData\Local\Temporary Projects\Kairen\obj\x86\Debug\EQOA Savestate Program.pdb
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\bin\Debug\Kairen.exe
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\bin\Debug\Kairen.pdb
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\bin\Debug\Kairen.xml
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.Form1.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.Kairen_Main.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.Kaires.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.Launcher.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.Resources.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.OnlineForm.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.vbproj.GenerateResource.Cache
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.exe
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.xml
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.pdb
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.FormLoader.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.PopOut_YourData.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.PopOut_NPCData.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.NPCPopulator_InGame.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.Launcher_v2.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.InstallationPrompt.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.TestForm.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.UserMenu.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.UserMenu_v2.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.BitmapDisplay.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.vbprojResolveAssemblyReference.cache
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.ItemMaker.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.AbilityMaker.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.ProcessMaker.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.CMMaker.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.RecipeMaker.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.QuestDesigner.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.ChatTest_v1.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.ChatTest_v2.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.MultithreadExample.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.KairesTestUI.resources
+C:\Users\Kaynewihza\documents\visual studio 2010\Projects\Kairen\Kairen\obj\x86\Debug\Kairen.Launcher_v3.resources

@@ -1,0 +1,711 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kairen
+</name>
+</assembly>
+<members>
+<member name="P:Kairen.RI.IsUninstallable">
+	<summary>
+ Checks if the file is allowed to be uninstalled. If it has not been manually set true or false, it will default to looking at the existence of vNumberOfChildren, and further default to false.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Kairen.CommonLibrary.DE(System.Object)">
+	<summary>
+ Checks if a Directory\Folder Exists.
+ </summary>
+	<param name="_path">The Folder to Check.</param>
+	<returns>returns True if it does exist, or False if it doesn't.</returns>
+	<remarks></remarks>
+</member><member name="M:Kairen.CommonLibrary.FE(System.Object)">
+	<summary>
+ Checks if a File Exists.
+ </summary>
+	<param name="_path">The File to Check.</param>
+	<returns>returns True if it does exist, or False if it doesn't.</returns>
+	<remarks></remarks>
+</member><member name="M:Kairen.CommonLibrary.Right(System.String,System.Int32)">
+	<summary>
+ Returns characters from the right end of a string.
+ </summary>
+	<param name="Stringaling">The string to retrieve from.</param>
+	<param name="Number">How many charaters to return.</param>
+	<returns>The new string as String.</returns>
+	<remarks>The string retrieved as String</remarks>
+</member><member name="M:Kairen.CommonLibrary.Left(System.String,System.Int32)">
+	<summary>
+ Returns characters from the left end of a string.
+ </summary>
+	<param name="Stringaling">The string to retrieve from.</param>
+	<param name="Number">How many charaters to return.</param>
+	<returns>The new string as String.</returns>
+	<remarks>The string retrieved as String</remarks>
+</member><member name="M:Kairen.CommonLibrary.DisplayMessage(System.String,System.String,System.String,System.Object,System.Int32)">
+Display Message Using Own NotifyIcon
+ <summary>
+ Displays a notification in the Task Bar Icon Tray.
+ </summary>
+	<param name="_message">The main message to convey to the user.</param>
+	<param name="_title">The title of the message, which appears above the message.</param>
+	<param name="_text">The text that appears when you mouseover the Icon.</param>
+	<param name="_icon">The icon to use. Defaults to the Default Kairen Icon.</param>
+	<param name="MillisecondsToDisplay">How long in milliseconds to display the notification.</param>
+	<remarks></remarks>
+</member><member name="M:Kairen.CommonLibrary.DisplayMessage(System.String,System.String,System.Object@,System.Int32)">
+	<summary>
+ Displays a notification in the Task Bar Icon Tray.
+ </summary>
+	<param name="_message">The main message to convey to the user.</param>
+	<param name="_title">The title of the message, which appears above the message.</param>
+	<param name="_NotifyIcon">_NotifyIcon as object equal to the icon you want to use.</param>
+	<param name="MillisecondsToDisplay">How long in milliseconds to display the notification.</param>
+	<remarks></remarks>
+</member><member name="M:Kairen.Kaires_v1.A(System.Int32@,System.Int32)">
+	<summary>
+ Auto-Incrementer. Allows you to get the next index of the passed in index instead of manually incrementing it every time.
+ </summary>
+	<param name="I">The Index reference to increment. [Integer]</param>
+	<param name="IA">The amount to increment the index by. Default = 1 [Integer]</param>
+	<returns>Returns the new increment</returns>
+	<remarks>Nay! We are but men!</remarks>
+</member><member name="M:Kairen.Kaires_v2.A(System.Int32@,System.Int32)">
+	<summary>
+ Auto-Incrementer. Allows you to get the next index of the passed in index instead of manually incrementing it every time.
+ </summary>
+	<param name="I">The Index reference to increment. [Integer]</param>
+	<param name="IA">The amount to increment the index by. Default = 1 [Integer]</param>
+	<returns>Returns the new increment</returns>
+	<remarks>Nay! We are but men!</remarks>
+</member><member name="M:Kairen.Form1.GetFilesRecursive(System.String,System.String)">
+	<summary>
+ This method starts at the specified directory.
+ It traverses all subdirectories.
+ It returns a List of those directories.
+ </summary>
+</member><member name="M:Kairen.Form1.Right(System.String,System.Int32)">
+	<summary>
+ Returns characters from the right end of a string.
+ </summary>
+	<param name="Stringaling">The string to retrieve from.</param>
+	<param name="Number">How many charaters to return.</param>
+	<returns>The new string as String.</returns>
+	<remarks>The string retrieved as String</remarks>
+</member><member name="M:Kairen.Form1.Left(System.String,System.Int32)">
+	<summary>
+ Returns characters from the left end of a string.
+ </summary>
+	<param name="Stringaling">The string to retrieve from.</param>
+	<param name="Number">How many charaters to return.</param>
+	<returns>The new string as String.</returns>
+	<remarks>The string retrieved as String</remarks>
+</member><member name="M:Kairen.Launcher_v2.LoadResourceFiles_new(System.String)">
+	<summary>
+ Custom Code Per Version, that loads each version into memory.
+ </summary>
+	<param name="_releaseVersion">The Version to load As String</param>
+	<remarks>This needs updated with every launcher release, even when none of it changes.</remarks>
+</member><member name="P:Kairen.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources._64x64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.a_badger">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Address2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Address3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Address4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Address5">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Alert_OutputPlayerData_ConsoleOutput2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Alert_OutputPlayerData2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Alert_ProcessOutsideCommands2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Aloj_Tilsteran">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.an_undead_mammoth">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Angry_Patron">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Arch_Familiar">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Area">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Bowyer_Koll">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Box1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Box2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ChangeLog_GameContent">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ChangeLog_GameContent2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Changelog_GameContent3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ChangeLog_KairenContent">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Changelog_KairenContent1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Changelog_KairenContent2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Changelog_KairenContent3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Changelog_KairenContent4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Changelog_KairenContent5">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Coachman_Ronks">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ConsoleOutput">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ConsoleOutput2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ConsoleOutput3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Convert_BooleanToString2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.CreateNPCFile1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Custom_Settings1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Custom1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Dr_Killian">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.DualBox">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.FAPI">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.FAPI1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.FAPI2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.FAPI3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.FAPI4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.FAPI4pre">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.FAPI5">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.File_Exists1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.File_Paths">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.File_Paths1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.File_Paths2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.File_Paths3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.File_Paths4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Finalquestt">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Ghost">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Green_Light_Icon_png">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Guard_Jahn">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Guard_Perinen">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Guard_Saolen">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Guard_Serenda">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.HEX_DEC">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Ihtol">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Kanizah">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Kanizah2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Kanizah3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Kanizah4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Left2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Locations">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Main">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Main1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Main2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Main3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Main4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Main5">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Main6">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.MainTable">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.MainTable1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.MainTable2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.MainTableJustWorldPopulationKey">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.MainTableJustWorldPopulationKey_SilentMode">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Manoarmz">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Marona_Jofranka">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Merchant_Ahkham">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Merchant_Kari">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal_Settings1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal_Settings2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal_Settings3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal_Settings4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal_Settings4pre">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Normal4pre">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC_Files">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC_Maker">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC4pre">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC5">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC6">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.NPC7">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Nukenurplace">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.OutputPlayerData2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ProcessOutsideCommands1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ProcessOutsideCommands2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.PsuedoNormal_Settings1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.PsuedoNormal1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Raam">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Randall_Adams1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Read_BitArrayToString1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Read_BitArrayToString2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Read_BitArrayToString3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Read_BitArrayToString4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Read_FileToStringArray1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Read_FileToStringArray2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ReadNextLine1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.ReadNextLine2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Red_Light_Icon_png">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Right2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Royce_Tilsteran">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.RunOptions1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.RunOptions2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Settings_NPCMaker">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.sign_post">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.SpawnHandler2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.SpawnHandler3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.SpawnHandler4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.System_IO_Compression_FileSystem">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Tailor_Bariston">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Tailor_Zixar">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Version">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Version1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.White_Light_Icon_png">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.World_Population">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.World_Population_Settings">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.World_Population_Settings2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.World_Population_Settings3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.World_Population_Settings4">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.World_Population2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.World_Population3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Write_StringArrayToFile1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Write_StringToBitArrayAddress1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Write_StringToBitArrayAddress2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Write_StringToBitArrayAddress3">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Kairen.My.Resources.Resources.Yellow_Light_Icon_png">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="T:Kairen.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Kairen.Launcher.LoadResourceFiles(System.String)">
+	<summary>
+ Custom Code Per Version, that loads each version into memory.
+ </summary>
+	<param name="_releaseVersion">The Version to load As String</param>
+	<remarks>This needs updated with every launcher release, even when none of it changes.</remarks>
+</member>
+</members>
+</doc>

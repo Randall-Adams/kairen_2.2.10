@@ -1,0 +1,27 @@
+-- File Version
+0.1.0
+-- nameSafe
+ChangeLog_KairenContent
+-- nameGame
+ChangeLog_KairenContent
+-- Log Entry Start
+-- Add Log Entry Below This Line --
+[Log Entry Start]
+1
+4:26 AM 11/20/2016 Update
+[bl]
+Salutations and Galore, Adventurers!
+[bl]
+Welcome to Kairen.
+[bl]
+This is the "Kairen Content" Changelog. You can find the "Game Content" Changelog in the User Menu.
+[bl]
+ -- Runtime Options -- 
+Runtime Options Let you make icons on your desktop that supply Kairen with instructions to follow while it is starting up.
+Advanced Users will know how to add these to their Desktop Shortcuts of Kairen.
+Runtime Options:
+/AutoLaunchCountDown 0
+/AutoLaunchCountDown -1
+ : 0 is how long you want the Launcher to display before the Auto-Launch option begins. 2000 = 2 seconds. 1000 = 1 second. 500 = .5 of a second. Etc.
+ : -1 disables the Auto-Launch option if it is on.
+[Log Entry End]

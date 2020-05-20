@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>4450</ID>
+      <Description>"DUALBOX 1"</Description>
+      <LastState Activated="0"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+
+dofile("../EQOA/luas/Box1.lua")
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4451</ID>
+      <Description>"DUALBOX 2"</Description>
+      <LastState Activated="0"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+
+dofile("../EQOA/luas/Box2.lua")
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

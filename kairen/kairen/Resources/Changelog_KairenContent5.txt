@@ -1,0 +1,88 @@
+-- File Version
+0.1.0
+-- nameSafe
+ChangeLog_KairenContent
+-- nameGame
+ChangeLog_KairenContent
+-- Log Entry Start
+-- Add Log Entry Below This Line --
+[Log Entry Start]
+4
+Update 2.2.8 - 5:24 PM 5/6/2017
+[bl]
+Oiyas, miguyas!
+Yes, that's right, another update is FINALLY here!
+And it was worth the wait, I hope! (But shouldn't I always hope that?!)
+[bl]
+Okay, so as you might have noticed, there is a "Join Everyone Questing Online Again Forever!" button in Kairen now.
+I warn you now, I was taking too long to get everything exactly how I wanted it to be when I released this, so things might not be exactly smooth or perfect.
+So, after clicking the button you will see the online form open up, it's currently labeled ChatTest. You will see a button that says "Start Listening". Before clicking that, you need to go to google.com and type in "what is my ip" and you need to give this to Randall.
+Randall will add it to his list. Right now Kairen has to get a message from the server before Kairen will allow you to logon. This is to prevent connection requests being sent while the server is offline.
+As well as giving Randall your ip address, you will also have to tell him what User Name and Password you want to use so he can create an account for you.
+[bl]
+So after being setup, you click "Start Listening" and wait for Randall to enable the Logon/Logoff buttons in your program. Once those show up you can try to logon.
+The server and client have some bugs that need sorted out, such as you may not be able to log on a second time without the server or your Kairen client needing to be closed and opened back up.
+[bl]
+NOTE: Randall will tell you where he wants this information to go. If people start sending me random messages or emails or other things and cause problems, the offending people may be declined access for who knows how long. This is just a warning to think before you act. I don't want to sound rude or mean or easily annoyed, apologies if I do. The simple fact is that there are over 2,000 people interested in this project as a whole, and just a small percent of those people using this program and messaging me instead of thinking about their actions and looking for where this information goes could mean over 100 messages for me to sift through/delete/archive/whatever.
+[Log Entry End]
+[Log Entry Start]
+3
+Update 2.2.7 - 6:54 AM 2/17/2017
+Ahoya, Adventurers!
+[bl]
+Slight improvements, and some glimpses into the future!
+[bl]
+ -- Developer Menu --
+The FormLoader window should now be properly updated about closed windows.
+[bl]
+You can now view some In-Build windows that I am working on, which will update to test versions as work continues.
+[bl]
+ -- Item Maker --
+The Item Maker is having some problems properly saving or loading Equip Type and maybe Attack Type data. I will address this soon.
+[bl]
+ -- Non-Technical Volunteers --
+I am trying to extend the ability to help with the project to as many people as I can. The NPC Maker and Item Maker and the other tools I am working on have been designed with this in mind. If you want to get in on helping out without needing to learn anything new, I am trying to reach out to you. In the near future, once these tools are ready for heavy use, we will need volunteers to use them. I encourage those who want to help out to explore the Developer Menu and see what the tools look like for yourself. If my program has been simple thus far, hopefully it will continue to be so for you even as a developer.
+[bl]
+To gain access to the developer window I have purposely not simplified the step just as a small test of one's commitment. All you have to do is create a shortcut of the Kairen program and then edit it by right-clicking it and adding the Runtime Option described below to the end of the field that is labeled "Target". You add it outside of the quotation mark, not inside it. Google it if you have to or ask someone if you need help.
+[bl]
+(My thinking is if you can't figure this out, even with help, then you might not either be able to use the software correctly or you might not be able to locate the correct information you are seeking out and putting into one of these tools.)
+[Log Entry End]
+[Log Entry Start]
+2
+6:38 PM 2/12/2017 Update
+Hurrah, Adventurers!
+[bl]
+New things are here in Kairen!
+[bl]
+ -- A new Runtime Option has been added --
+/DeveloperMenu
+ : This will give you access to the "FormLoader" window, which will probably replant itself as the "Dev Menu" in the future.
+ : The FormLoader Window will give you access to creating NPCs and Items as well as access to future things.
+ : To open the FormLoader window, click Kairen's icon in the borrom-right corner of the screen.
+[bl]
+ -- Item Maker --
+Item Maker Release Version 1 is ready!
+This will allow you to make items.
+These items are not integrated into the savestate yet, but I do hope to integrate them in the future.
+The Item Maker can be accessed via using the Runtime Option "/DeveloperMenu".
+Right now the Item Maker does not have any graphical depictions of the items but that should change in the future.
+[Log Entry End]
+[Log Entry Start]
+1
+4:26 AM 11/20/2016 Update
+Salutations and Galore, Adventurers!
+[bl]
+Welcome to Kairen!
+[bl]
+This is the Kairen Program Update Log.
+[bl]
+ -- Runtime Options -- 
+Runtime Options let you use shortcut icons to supply Kairen with instructions to follow while it is starting up.
+Advanced Users will know how to add these to their Desktop Shortcuts of Kairen.
+Runtime Options:
+/AutoLaunchCountDown 0
+/AutoLaunchCountDown -1
+ : 0 is how long you want the Launcher to display before the Auto-Launch option begins. 2000 = 2 seconds. 1000 = 1 second. 500 = .5 of a second. Etc.
+ : -1 disables the Auto-Launch ability.
+ : Used to modify how quickly the Auto-Launch feature of Kairen starts.
+[Log Entry End]

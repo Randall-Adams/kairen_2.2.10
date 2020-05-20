@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Coachman_Ronks
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+003FFFD4]+624
+--Overhead Name Color
+["pcsx2-r3878.exe"+003FFFD4]+644
+--Target Name
+["pcsx2-r3878.exe"+003FFE64]+0D8
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+003FFE64]+0C0
+["pcsx2-r3878.exe"+003FFE64]+0C8
+["pcsx2-r3878.exe"+003FFE64]+0C4
+["pcsx2-r3878.exe"+003FFE64]+080
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+003FFE64]+0F0
+["pcsx2-r3878.exe"+003FFE64]+099

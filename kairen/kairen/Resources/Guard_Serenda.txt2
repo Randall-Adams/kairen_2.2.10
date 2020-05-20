@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Guard_Serenda
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+003FACD4]+364
+--Overhead Name Color
+["pcsx2-r3878.exe"+003FACD4]+384
+--Target Name
+["pcsx2-r3878.exe"+00400AD8]+7F8
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+00400AD8]+7E0
+["pcsx2-r3878.exe"+00400AD8]+7E8
+["pcsx2-r3878.exe"+00400AD8]+7E4
+["pcsx2-r3878.exe"+00400AD8]+7A0
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+00400AD8]+810
+["pcsx2-r3878.exe"+00400AD8]+7B9

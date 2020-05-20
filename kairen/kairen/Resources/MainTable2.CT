@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>5400</ID>
+      <Description>"Main.lua - Custom"</Description>
+      <LastState Activated="0"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+
+mode = "NPC Maker"
+dofile("../LUAs/Main.lua")
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5401</ID>
+      <Description>"Main.lua - PsuedoNormal"</Description>
+      <LastState Activated="0"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+
+mode = "PsuedoNormal"
+dofile("../LUAs/Main.lua")
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5402</ID>
+      <Description>"Main.lua - Normal"</Description>
+      <LastState Activated="0"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+
+mode = "Normal"
+dofile("../LUAs/Main.lua")
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5403</ID>
+      <Description>"Main.lua - World Population"</Description>
+      <LastState Activated="0"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+
+mode = "World Population"
+dofile("../LUAs/Main.lua")
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

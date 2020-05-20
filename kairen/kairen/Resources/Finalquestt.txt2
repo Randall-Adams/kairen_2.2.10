@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Finalquestt
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+003FE5D4]+6A4
+--Overhead Name Color
+["pcsx2-r3878.exe"+003FE5D4]+6C4
+--Target Name
+["pcsx2-r3878.exe"+0040003C]+388
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+0040003C]+370
+["pcsx2-r3878.exe"+0040003C]+378
+["pcsx2-r3878.exe"+0040003C]+374
+["pcsx2-r3878.exe"+0040003C]+330
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+0040003C]+3A0
+["pcsx2-r3878.exe"+0040003C]+349

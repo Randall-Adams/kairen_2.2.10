@@ -1,0 +1,22 @@
+-- File Version
+0.1.0
+-- nameSafe
+ChangeLog_GameContent
+-- nameGame
+ChangeLog_GameContent
+-- Log Entry Start
+-- Add Log Entry Below This Line --
+[Log Entry Start]
+1
+12/18/2016 Update
+Greetings Adventurers!
+Welcome to the Kairen Program.
+[bl]
+Now that you have installed the program, you will need a content update to complete the experience.
+For details about content updates and help installing one, go to:
+https://www.facebook.com/groups/1763663903897611/permalink/1763665453897456/
+[bl]
+Then check back here for the latest news and update information on this project.
+[bl]
+Thanks for playing!
+[Log Entry End]

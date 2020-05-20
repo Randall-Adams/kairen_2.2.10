@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Dr_Killian
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+004009D0]+024
+--Overhead Name Color
+["pcsx2-r3878.exe"+004009D0]+5D4
+--Target Name
+["pcsx2-r3878.exe"+003FC53C]+7B8
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+003FC53C]+7A0
+["pcsx2-r3878.exe"+003FC53C]+7A8
+["pcsx2-r3878.exe"+003FC53C]+7A4
+["pcsx2-r3878.exe"+003FC53C]+760
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+003FC53C]+7d0
+["pcsx2-r3878.exe"+003FC53C]+779

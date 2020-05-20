@@ -1,0 +1,38 @@
+-- Version Number
+0.1.1
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+Coachman_Ronks
+-- In Game Name
+Coachman Ronks
+---- World Placement ----
+--x, y, z, facing,
+1187345244
+1182112840
+1113096192
+0
+---- Characteristics ----
+-- Race, Gender, Class,
+Human
+Male
+Coachman
+---- Statistics ----
+-- level, hp, mp, ac,
+10
+255
+1
+1
+--str, sta, agi, dex, wis, int, cha,
+1
+1
+1
+1
+1
+1
+1
+--fr, cr, lr, ar, pr, dr,
+1
+1
+1
+1
+1
+1

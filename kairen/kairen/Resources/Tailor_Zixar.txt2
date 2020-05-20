@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Tailor_Zixar
+-- In Game Name
+--Overhead Name"pcsx2-r3878.exe"+003FFB98
+["pcsx2-r3878.exe"+003FC6B4]+6C4
+--Overhead Name Color
+["pcsx2-r3878.exe"+003FC6B4]+6E4
+--Target Name
+["pcsx2-r3878.exe"+003FFB98]+A08
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+003FFB98]+9F0
+["pcsx2-r3878.exe"+003FFB98]+9F8
+["pcsx2-r3878.exe"+003FFB98]+9F4
+["pcsx2-r3878.exe"+003FFB98]+9B0
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+003FFB98]+A20
+["pcsx2-r3878.exe"+003FFB98]+9C9

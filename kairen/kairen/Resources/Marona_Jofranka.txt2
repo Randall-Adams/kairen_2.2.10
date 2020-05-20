@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Marona_Jofranka
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+003FAADC]+D34
+--Overhead Name Color
+["pcsx2-r3878.exe"+003FAADC]+D54
+--Target Name
+["pcsx2-r3878.exe"+003FFD30]+DF8
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+003FFD30]+DE0
+["pcsx2-r3878.exe"+003FFD30]+DE8
+["pcsx2-r3878.exe"+003FFD30]+DE4
+["pcsx2-r3878.exe"+003FFD30]+DA0
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+003FFD30]+E10
+["pcsx2-r3878.exe"+003FFD30]+DB9

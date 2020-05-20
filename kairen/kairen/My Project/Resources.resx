@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Aloj_Tilsteran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aloj_Tilsteran.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Angry_Patron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Angry_Patron.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="an_undead_mammoth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\an_undead_mammoth.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Arch_Familiar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arch_Familiar.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="a_badger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_badger.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bowyer_Koll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bowyer_Koll.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Box1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Box2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Coachman_Ronks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coachman_Ronks.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DualBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DualBox.CT;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="File_Paths" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\File Paths.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Finalquestt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Finalquestt.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Guard_Jahn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guard_Jahn.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Guard_Perinen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guard_Perinen.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Guard_Saolen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guard_Saolen.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Guard_Serenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guard_Serenda.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Locations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Locations.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainTable.CT;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Manoarmz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manoarmz.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Marona_Jofranka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Marona_Jofranka.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Merchant_Ahkham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Merchant_Ahkham.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Merchant_Kari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Merchant_Kari.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Nukenurplace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nukenurplace.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Raam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raam.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Royce_Tilsteran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Royce_Tilsteran.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sign_post" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sign_post.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tailor_Bariston" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tailor_Bariston.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tailor_Zixar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tailor_Zixar.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dr_Killian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr_Killian.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC_Maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC Maker.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Version" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Version.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Area" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Area.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAPI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAPI.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ghost.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Settings_NPCMaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings_NPCMaker.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\64x64.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateNPCFile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CreateNPCFile1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Custom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Custom1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Custom_Settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Custom_Settings1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAPI1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAPI1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="File_Exists1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\File_Exists1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="File_Paths1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\File Paths1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainTable1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainTable1.ct;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal_Settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal_Settings1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProcessOutsideCommands1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProcessOutsideCommands1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PsuedoNormal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PsuedoNormal1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PsuedoNormal_Settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PsuedoNormal_Settings1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadNextLine1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadNextLine1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Read_BitArrayToString1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Read_BitArrayToString1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Read_FileToStringArray1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Read_FileToStringArray1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RunOptions1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RunOptions1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Version1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Version1.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Write_StringArrayToFile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Write_StringArrayToFile1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Write_StringToBitArrayAddress1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Write_StringToBitArrayAddress1.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Address2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Address2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Alert_OutputPlayerData2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alert_OutputPlayerData2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Alert_OutputPlayerData_ConsoleOutput2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alert_OutputPlayerData_ConsoleOutput2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Alert_ProcessOutsideCommands2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alert_ProcessOutsideCommands2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ConsoleOutput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConsoleOutput.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Convert_BooleanToString2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Convert_BooleanToString2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAPI2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAPI2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="File_Paths2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\File Paths2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Left2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Left2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal_Settings2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal-Settings2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OutputPlayerData2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutputPlayerData2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProcessOutsideCommands2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProcessOutsideCommands2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReadNextLine2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadNextLine2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Read_BitArrayToString2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Read_BitArrayToString2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Read_FileToStringArray2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Read_FileToStringArray2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Right2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Right2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RunOptions2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RunOptions2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SpawnHandler2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpawnHandler2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Address3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Address3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAPI3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAPI3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Kanizah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kanizah.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal_Settings3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal-Settings3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal4pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal4pre.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal_Settings4pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal-Settings4pre.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC4pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC4pre.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAPI4pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAPI4pre.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Address4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Address4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAPI4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAPI4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="File_Paths3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\File Paths3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Kanizah2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kanizah2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainTable2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainTable2.CT;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Normal_Settings4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Normal-Settings4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Read_BitArrayToString3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Read_BitArrayToString3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="World_Population" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Population.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="World_Population_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Population-Settings.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Write_StringToBitArrayAddress2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Write_StringToBitArrayAddress2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC_Files" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC_Files.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChangeLog_KairenContent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChangeLog_KairenContent.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainTableJustWorldPopulationKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainTableJustWorldPopulationKey.CT;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SpawnHandler3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpawnHandler3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="File_Paths4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\File Paths4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC5.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="System_IO_Compression_FileSystem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\System.IO.Compression.FileSystem.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ihtol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ihtol.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Address5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Address5.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChangeLog_GameContent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChangeLog_GameContent.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChangeLog_GameContent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChangeLog_GameContent2.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Changelog_GameContent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changelog_GameContent3.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ConsoleOutput2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConsoleOutput2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HEX_DEC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HEX_DEC.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Kanizah3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kanizah3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC6.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SpawnHandler4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpawnHandler4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Write_StringToBitArrayAddress3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Write_StringToBitArrayAddress3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="World_Population2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Population2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="World_Population_Settings2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Population-Settings2.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Read_BitArrayToString4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Read_BitArrayToString4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FAPI5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAPI5.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ConsoleOutput3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConsoleOutput3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main5.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainTableJustWorldPopulationKey_SilentMode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainTableJustWorldPopulationKey_SilentMode.CT;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main6.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NPC7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NPC7.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="World_Population3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Population3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="World_Population_Settings3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Population-Settings3.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Changelog_KairenContent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changelog_KairenContent2.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Changelog_KairenContent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changelog_KairenContent3.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Changelog_KairenContent1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changelog_KairenContent.txt4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Green_Light_Icon_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green Light Icon.png.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red_Light_Icon_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Light Icon.png.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Light_Icon_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White Light Icon.png.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow_Light_Icon_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yellow Light Icon.png.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kanizah4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kanizah4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Randall_Adams1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Randall_Adams.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="World_Population_Settings4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Population-Settings4.lua;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Changelog_KairenContent4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changelog_KairenContent4.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Changelog_KairenContent5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Changelog_KairenContent5.txt2;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,18 @@
+1.0
+Freeport_Coach
+Freeport
+-- X Min
+1187322794
+-- X Max
+1187381630
+-- Y Min
+1182068308
+-- Y Max
+1182171623
+-- Z Min
+1113096443
+-- Z Max
+1114833902
+--
+-- NPCs
+Coachman_Ronks

@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Guard_Perinen
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+00400570]+864
+--Overhead Name Color
+["pcsx2-r3878.exe"+00400570]+884
+--Target Name
+["pcsx2-r3878.exe"+003FFD14]+C48
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+003FFD14]+C30
+["pcsx2-r3878.exe"+003FFD14]+C38
+["pcsx2-r3878.exe"+003FFD14]+C34
+["pcsx2-r3878.exe"+003FFD14]+BF0
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+003FFD14]+C60
+["pcsx2-r3878.exe"+003FFD14]+C09

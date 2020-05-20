@@ -1,0 +1,7 @@
+FAPI.RunOptions.OutputPlayerData.Try()
+FAPI.RunOptions.ProcessOutsideCommands.Try()
+FAPI.RunOptions.UpdateSpawnNests.Try()
+FAPI.RunOptions.UpdateVisualNPCs.Try()
+FAPI.RunOptions.CrossPressCheck.Try()
+FAPI.RunOptions.SquarePressCheck.Try()
+FAPI.RunOptions.UpdateKanizah.Try()

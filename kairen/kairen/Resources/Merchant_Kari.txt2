@@ -1,0 +1,23 @@
+--Version Number
+0.1.1
+-- Ghost File --
+-- Safe Name (A "Safe Name" is a name that is able to be a file name.)
+-- AKA Ghost ID
+Merchant_Kari
+-- In Game Name
+--Overhead Name
+["pcsx2-r3878.exe"+003FF9FC]+6F4
+--Overhead Name Color
+["pcsx2-r3878.exe"+003FF9FC]+012
+--Target Name
+["pcsx2-r3878.exe"+003FDBD8]+108
+---- World Placement ----
+--x, y, z, facing,
+["pcsx2-r3878.exe"+003FDBD8]+0F0
+["pcsx2-r3878.exe"+003FDBD8]+0F8
+["pcsx2-r3878.exe"+003FDBD8]+0F4
+["pcsx2-r3878.exe"+003FDBD8]+0B0
+---- Statistics ----
+-- level, hp,
+["pcsx2-r3878.exe"+003FDBD8]+120
+["pcsx2-r3878.exe"+003FDBD8]+0C9
